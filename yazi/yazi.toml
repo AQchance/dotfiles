@@ -1,0 +1,9 @@
+[opener]
+edit = [
+  { run = "nvim \"$@\"", block = true, for = "unix" }
+]
+
+[preview]
+max_width = 2000
+max_height = 1500
+

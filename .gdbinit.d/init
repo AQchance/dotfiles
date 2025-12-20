@@ -1,0 +1,6 @@
+dashboard -layout source assembly
+dashboard source -style height 35
+
+set disassembly-flavor intel
+
+directory /home/anqian/Desktop/seekdb

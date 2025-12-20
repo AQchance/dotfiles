@@ -1,0 +1,48 @@
+font_size 19.0
+
+# BEGIN_KITTY_THEME
+# Dracula
+include current-theme.conf
+# END_KITTY_THEME
+#
+
+# 复制粘贴优化
+copy_on_select yes
+strip_trailing_spaces smart
+
+# 设置光标颜色
+cursor #FFB6C1
+cursor_text_color background
+#
+# 光标显示为块状态
+cursor_shape block
+
+cursor_trail 3
+
+# window
+hide_window_decorations titlebar-only
+window_padding_width 0
+background_opacity 1
+background_blur 30
+remember_window_size yes
+
+#tab bar
+tab_bar_edge top
+tab_bar_style powerline
+tab_powerline_style slanted
+
+# 背景图片
+background_image /home/anqian/Pictures/yourname.png
+background_tint 0.95
+
+# 行距增加6个像素
+adjust_line_height 6
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="JetBrainsMonoNL Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
+
